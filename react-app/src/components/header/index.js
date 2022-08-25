@@ -4,10 +4,14 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () =>{
     return (
-     <div className={style.container}>
-        <h5>PlayMakers Header</h5>
+     <div className={style.header}>
+        <div className={style.nav}>
+        <ul className={style.navList}>
+        <NavLink to={'/'}>Home</NavLink>
+        <NavLink to={'/Fourm'}>Fourm</NavLink>
+        </ul>
      </div>
-
+     </div>
     );
 }
 export default Header;
