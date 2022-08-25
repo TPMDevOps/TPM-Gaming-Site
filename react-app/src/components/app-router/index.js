@@ -6,7 +6,7 @@ const AppRouter = () => {
     return(
 
         <Routes>
-            <Route exact path={'/'} component={Home} />
+            <Route path='/' element={<Home/>} />
         </Routes>
     );
 }

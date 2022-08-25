@@ -1,0 +1,48 @@
+.header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    background-color: gray;
+    padding-bottom: 10px 0;
+    font-family: "Nunito",sans-serif;
+    box-shadow: 0 4px 4px -4px rgb(52,76,191);
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px auto;
+    width: 87%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navList{ 
+    margin: 10 2px;
+    padding: 0;
+
+    & a {
+    display: inline-flex ;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(75, 75, 202);
+    margin: auto 20 px;
+    min-width: 75px;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+    & a:hover{
+    color: rgb(122,134,191);
+    transition: 0.3s ease;
+}
+    & p{
+    position: relative;
+    right: 75em;
+    bottom: 5.5em;
+    max-height: 0px;
+    height: 90%;
+
+}
+}
