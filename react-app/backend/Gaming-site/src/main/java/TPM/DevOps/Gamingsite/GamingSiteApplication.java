@@ -1,13 +1,13 @@
-package TPM.DevOps.Gamingsite.BackEnd;
+package TPM.DevOps.Gamingsite;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GamingSiteBackEndApplication {
+public class GamingSiteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GamingSiteBackEndApplication.class, args);
+		SpringApplication.run(GamingSiteApplication.class, args);
 	}
 
 }
