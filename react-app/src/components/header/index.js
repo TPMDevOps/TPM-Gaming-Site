@@ -1,6 +1,6 @@
-import style from "./header.module.scss"
-import React from "react";
 import { NavLink } from 'react-router-dom';
+import React from "react";
+import style from "./header.module.scss"
 
 const Header = () =>{
     return (
@@ -8,7 +8,7 @@ const Header = () =>{
         <div className={style.nav}>
         <ul className={style.navList}>
         <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={'/Fourm'}>Fourm</NavLink>
+        <NavLink to={'/fourm'}>Fourm</NavLink>
         </ul>
      </div>
      </div>
