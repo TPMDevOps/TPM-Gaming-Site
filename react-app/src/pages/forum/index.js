@@ -37,12 +37,12 @@ const Forums = () => {
             </div>
             {loadingForums ? <h3>Loading Forums ...</h3> :
                 <>
-                    <h2>TPM!</h2>
+                    <h2 className={style.test}>TPM!</h2>
                     
                     
                     <div >
                     {forum.map(forum => (
-                        <div >
+                        <div className={style.test}>
                             
                             <div key={forum.id}>
                             <p >Title: {forum.title}</p>
