@@ -1,4 +1,4 @@
-package TPM.DevOps.Gamingsite;
+package TPM.DevOps.Gamingsite.Data;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 

@@ -8,7 +8,9 @@ const Header = () =>{
         <div className={style.nav}>
         <ul className={style.navList}>
         <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={'/fourm'}>Fourm</NavLink>
+        <NavLink to={'/form'}>Form</NavLink>
+        <NavLink to={'/signup'}>signup</NavLink>
+        
         </ul>
      </div>
      </div>
